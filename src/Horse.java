@@ -9,7 +9,9 @@ public class Horse extends Animal {
 
     @Override
     public String toString() {
-        return null;
+        return "A Horse/name:" + name +
+                "/age:" + age +
+                "/sex:" + sex + ".";
     }
 
     public void biteByHorse(int times) {

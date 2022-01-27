@@ -4,7 +4,11 @@ public abstract class Animal {
     protected String sex;
     protected double priceToBuy;
 
-    public Animal() {//构造函数
+//    public Animal() {//构造函数
+//    }
+
+    public double getPriceToBuy() {//获取买动物的开销？
+        return priceToBuy;
     }
 
     public Animal(String name, int age, String sex, double price) {

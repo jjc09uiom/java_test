@@ -11,6 +11,8 @@ public class Panda extends Animal {
 
     @Override
     public String toString() {
-        return null;
+        return "A panda/name:" + name +
+                "/age:" + age + "/sex:" + sex +
+                "/isFat:" + isFat + ".";
     }
 }

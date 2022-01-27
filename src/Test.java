@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Test {
@@ -9,7 +10,7 @@ public class Test {
         Zoo zoo = new Zoo(moneyZoo);
         System.out.println("买入动物：");
         String ani = null;
-        while (!ani.equals("买入结束")) {
+        while (!Objects.equals(ani, "买入结束")) {
 
             ani = scanner.next();
             zoo.adopt(ani);
